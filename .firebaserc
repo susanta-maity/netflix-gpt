@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "netflixgpt-b2dcb"
-  }
+  },
+  "targets": {
+    "netflixgpt-b2dcb": {
+      "hosting": {
+        "main": [
+          "bcd2ba"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
