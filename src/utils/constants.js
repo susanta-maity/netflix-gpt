@@ -10,6 +10,7 @@ export const MOVIE_LIST_API_OPTIONS = {
 }
 
 export const MOVIE_URL = "https://api.themoviedb.org/3/movie/now_playing?page=1";
+export const POPULAR_MOVIE_URL = "https://api.themoviedb.org/3/movie/popular?page=1";
 
 export const API_OPTIONS = {
   method: 'GET',
@@ -18,3 +19,5 @@ export const API_OPTIONS = {
     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZjA0NzhkZTMzMTVhMDlkODE5NGEyY2EwYTI5YzgyMSIsIm5iZiI6MTcwNjExNzU2OC4zMjYwMDAyLCJzdWIiOiI2NWIxNDljMGEzMTQ0MDAxOTM1YWYxNjUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.-uu2A3-StU9xgsHyQD5Wl8wmvzCi0WDNwQEjVYCke-s'
   }
 };
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
